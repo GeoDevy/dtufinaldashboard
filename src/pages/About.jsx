@@ -139,7 +139,7 @@ export default function About() {
                             using terrain-aware machine learning. By combining NASA IMERG satellite data with
                             IMD ground observations and geospatial predictors (elevation, slope, coastal distance),
                             our models significantly reduce rainfall estimation errors across Kerala's 14 districts —
-                            with particular focus on extreme events like the 2024 Wayanad floods.
+                            with particular focus on extreme events like the 2024 Wayanad landslide.
                         </p>
                     </div>
                 </div>
