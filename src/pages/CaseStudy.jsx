@@ -120,17 +120,6 @@ export default function CaseStudy() {
                     </div>
                 </div>
 
-                {/* Key Takeaway */}
-                <div className="glass-card" style={{ marginTop: 32, display: 'flex', gap: 16, alignItems: 'flex-start', borderLeft: '3px solid var(--accent)' }}>
-                    <div style={{ fontSize: '1.5rem', flexShrink: 0 }}>📈</div>
-                    <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-                        <strong>Key Takeaway:</strong> On July 30, IMD recorded 93 mm/day at Wayanad while raw IMERG
-                        showed only ~19 mm/day — a massive underestimation. XGBoost and Random Forest corrections improved
-                        this significantly, though all models struggled with the extreme magnitude. The error distribution
-                        confirms ML models produce tighter, more symmetric error distributions compared to the wider spread
-                        of raw IMERG errors.
-                    </div>
-                </div>
             </section>
 
             {lightbox && (
