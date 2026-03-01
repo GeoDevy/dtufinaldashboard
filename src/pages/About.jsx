@@ -53,7 +53,7 @@ export default function About() {
                             { icon: '🐍', name: 'Python', desc: 'Data processing & ML' },
                             { icon: '🌍', name: 'xarray / netCDF4', desc: 'Gridded data handling' },
                             { icon: '🤖', name: 'scikit-learn', desc: 'ML model training' },
-                            { icon: '⚡', name: 'XGBoost · LightGBM', desc: 'Gradient boosting' },
+                            { icon: '⚡', name: 'XGB · LGBM · RF', desc: 'Gradient boosting' },
                             { icon: '📊', name: 'Matplotlib', desc: 'Visualization' },
                             { icon: '🗺️', name: 'GeoPandas', desc: 'Spatial analysis' },
                             { icon: '⚛️', name: 'React + Vite', desc: 'Interactive web app' },
@@ -86,7 +86,7 @@ export default function About() {
                             {
                                 icon: '🏔️', name: 'ALOS 3D 30m DEM',
                                 desc: 'JAXA ALOS World 3D 30m digital elevation model for terrain features.',
-                                link: 'https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1',
+                                link: 'https://earthdata.nasa.gov/s3fs-public/2024-10/ASF_SAR_ALOS_PALSAR_00149_ALOS_HB_RevC_EN.pdf',
                             },
                         ].map((d, i) => (
                             <div className="glass-card method-card" key={i}>

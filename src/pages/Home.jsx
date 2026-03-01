@@ -17,7 +17,7 @@ export default function Home() {
                         </h1>
                         <p className="hero-subtitle">
                             Machine Learning–based bias correction framework for NASA GPM IMERG satellite
-                            precipitation estimates over Kerala, India — validated against IMD ground truth data.
+                            precipitation estimates over Kerala, India - validated against IMD ground truth data.
                         </p>
                         <div className="hero-actions">
                             <Link to="/results" className="btn btn-primary">View Results →</Link>
@@ -48,7 +48,7 @@ export default function Home() {
 
             {/* Interactive Map Section */}
             <section className="section container">
-                <h2 className="section-title">Study Area — Kerala, India</h2>
+                <h2 className="section-title">Study Area - Kerala, India</h2>
                 <p className="section-subtitle">
                     Interactive topographic map showing the 12 IMERG grid points used for bias correction.
                     Click markers for station details.
